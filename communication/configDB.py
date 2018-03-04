@@ -129,7 +129,7 @@ def resetLocalDB():
 		speech_record,speech_id_relation,speech')
 		cur.execute('''insert into "user" values(1111111111,'111111',127)''')	
 def main():
-	#setupLocalDB()#建立LocalDatabase,清空
+	setupLocalDB()#建立LocalDatabase,清空
 	setupServerDB()#建立ServerDatabase,清空
 	preloadServerDB()#给Server预装数据
 	#clearLocalDB()#清除除了user表中的所有数据

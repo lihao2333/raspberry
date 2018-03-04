@@ -1,0 +1,1 @@
+docker run --name postgres_dev -v ./DB:/var/lib/postgresql/data/pgdata -d -p 5432:5432 lihao2333/postgresl:dev-0
